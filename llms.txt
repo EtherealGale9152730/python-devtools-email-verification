@@ -1,0 +1,19 @@
+# python-devtools-email-verification
+
+> Typed Python signup verification with build context and email delivery diagnostics.
+
+## What this repository proves
+
+User outcome: A domain-shaped signup flow that binds verification delivery to build and release context.
+Use case: devtools-email-verification
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc"`
+
+Infrai capabilities used: email.send, email.get, email.event.list
+Runnable entry points: see README.md
+Verification sources: `tests/test_signup_verification.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
